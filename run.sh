@@ -1,3 +1,3 @@
 #!/bin/sh
 
-java -Djava.library.path=./lib/macosx -jar MineCraft.jar
+java -Djava.library.path=./lib/windows -jar MineCraft.jar

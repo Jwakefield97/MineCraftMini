@@ -7,7 +7,7 @@ rm -rf build
 mkdir build
 
 echo "Compiling"
-javac -classpath lib/lwjgl.jar:lib/lwjgl_util.jar:lib/slick-util.jar src/*.java -d build
+javac -classpath "lib/*" "src/*.java" -d build
 
 cd build
 echo "Creating Jar"
